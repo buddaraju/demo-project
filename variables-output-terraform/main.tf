@@ -1,3 +1,14 @@
+// old version start
+# terraform {
+#   required_providers {
+#     aws ={
+#       source = "hashicorp/aws"
+#       version = "< 5.0"
+#     }
+#   }
+# }
+// old version end
+
 // ec2 instance start
 provider "aws" {
   region = var.region
